@@ -1,1 +1,1 @@
-# kali-dotfiles
+# xfce4-setup
