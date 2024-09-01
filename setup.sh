@@ -10,7 +10,8 @@ sudo apt autoremove -y
 
 sudo apt install -y rofi brightnessctl flameshot kitty xclip
 sudo cp onedark.rasi /usr/share/rofi/themes
-cp -r .config/kitty .config/rofi .config/user.png ~/.config
+cp -r .config/kitty .config/rofi ~/.config
+sudo cp .config/user.png /usr/share/backgrounds/
 cp .zshrc ~/.
 
 sudo cp -r img/ /usr/share/backgrounds/
