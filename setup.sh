@@ -9,6 +9,8 @@ sudo apt upgrade -y
 sudo apt autoremove -y
 
 sudo apt install -y rofi brightnessctl flameshot kitty xclip
+# For debian
+sudo apt install -y xfce4-panel-profiles zsh zsh-autosuggestions zsh-syntax-highlighting
 sudo cp onedark.rasi /usr/share/rofi/themes
 cp -r .config/kitty .config/rofi ~/.config
 sudo cp .config/user.png /usr/share/backgrounds/
