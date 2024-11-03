@@ -33,5 +33,6 @@ xfconf-query -c xfce4-keyboard-shortcuts -n -t 'string' -p '/commands/custom/<Sh
 
 firefox https://discord.com/api/download?platform=linux&format=deb
 firefox https://telegram.org/dl/desktop/linux
+firefox https://code.visualstudio.com/docs/?dv=linux64_deb
 echo "sudo dpkg -i ~/Downloads/discord*"|xclip -sel clip
 echo "paste with ctrl V to install discord"
