@@ -11,13 +11,15 @@ sudo apt autoremove -y
 sudo apt install -y rofi brightnessctl flameshot kitty xclip
 # For debian
 sudo apt install -y xfce4-panel-profiles zsh zsh-autosuggestions zsh-syntax-highlighting
+sudo usermod -s /usr/bin/zsh $USER
+###
 sudo cp onedark.rasi /usr/share/rofi/themes
 cp -r .config/kitty .config/rofi ~/.config
 sudo cp .config/user.png /usr/share/backgrounds/
 cp .zshrc ~/.
 
 sudo cp -r img/ /usr/share/backgrounds/
-xfconf-query -c xfce4-desktop -p $(xfconf-query -c xfce4-desktop -l | grep "workspace0/last-image") -s /usr/share/backgrounds/img/forest.png
+#xfconf-query -c xfce4-desktop -p $(xfconf-query -c xfce4-desktop -l | grep "workspace0/last-image") -s /usr/share/backgrounds/img/forest.png
 
 xfce4-panel-profiles load xfce4-custom.tar.bz2
 
